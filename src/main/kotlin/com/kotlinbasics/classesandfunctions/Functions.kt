@@ -1,4 +1,6 @@
-package com.kotlinbasics
+package com.kotlinbasics.classesandfunctions
+
+import com.kotlinbasics.classesandfunctions.ProjectOwners.*
 
 fun main() {
     println("Hello, I can execute functions without a class!!!")
@@ -20,9 +22,9 @@ fun main() {
 
     //Using Enums and throwing an exception
     val projectCredits = ProjectCredits()
-    projectCredits.giveCreditsToAnOwner(ProjectOwners.PUTZEYS)
+    projectCredits.giveCreditsToAnOwner(PUTZEYS)
     try {
-        projectCredits.giveCreditsToADev(ProjectOwners.PUTZEYS)
+        projectCredits.giveCreditsToADev(PUTZEYS)
     } catch (e: Exception) {
         println("ooops, i catch an exception and this is the message ${e.message}")
     }

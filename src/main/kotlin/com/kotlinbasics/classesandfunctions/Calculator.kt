@@ -1,4 +1,4 @@
-package com.kotlinbasics
+package com.kotlinbasics.classesandfunctions
 
 class Calculator {
     fun minus(numberOne: Int, numberTwo: Int): Int {
