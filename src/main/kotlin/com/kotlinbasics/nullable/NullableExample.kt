@@ -14,9 +14,6 @@ fun main() {
     // to a non-null type and throws an exception if the value is null
     print(nullValue!!.length)
 
-    val a = null
-    val aInt: Int? = a as? Int
-
 }
 
 fun nullableVariable() {
