@@ -2,6 +2,9 @@ package com.kotlinbasics.poo
 
 import com.kotlinbasics.poo.BirdSize.*
 
+/**
+ * Open class can be inherited. By default, classes can't be inherited.
+ */
 open class Bird(val name: String, val weight: Int, val size: BirdSize) {
 
     open fun sing() {

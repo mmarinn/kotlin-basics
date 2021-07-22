@@ -5,7 +5,8 @@ class Calculator {
         return numberOne - numberTwo
     }
 
-    companion object {
+    //static objetcs of a class
+    companion object A {
         fun staticFunction(nameOfOperator: String) {
             println("You called a static function, $nameOfOperator")
         }

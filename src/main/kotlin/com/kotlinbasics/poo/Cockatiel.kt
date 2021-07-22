@@ -1,5 +1,8 @@
 package com.kotlinbasics.poo
 
+/**
+ * Cockatiel class extends Birds and implements Animalia interface
+ */
 class Cockatiel(name : String, weight : Int, size: BirdSize, val color : String) : Bird(name, weight, size), Animalia {
 
     override fun sing() {

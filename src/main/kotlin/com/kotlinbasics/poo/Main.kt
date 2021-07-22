@@ -6,7 +6,7 @@ import com.kotlinbasics.poo.BirdSize.small
 fun main() {
     val mediumSizeBird = Bird("rex", 1, small)
     val giantCockatiel = Cockatiel("maluco", 2, big, "white")
-    val list = mutableListOf<Bird>(mediumSizeBird)
+    val list = mutableListOf<Bird>(mediumSizeBird) //we can create mutable and imutable list's in kotlin
     list.add(mediumSizeBird)
     list.add(giantCockatiel)
 
