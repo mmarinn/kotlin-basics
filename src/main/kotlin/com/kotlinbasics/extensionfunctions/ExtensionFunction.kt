@@ -1,7 +1,7 @@
 package com.kotlinbasics.extensionfunctions
 
 fun main() {
-    print("Matheus")
+    print("Matheus".sayHello())
 }
 
 fun String.sayHello(): String {

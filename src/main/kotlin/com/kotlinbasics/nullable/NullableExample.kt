@@ -1,11 +1,15 @@
 package com.kotlinbasics.nullable
 
+import com.kotlinbasics.extensionfunctions.sayHello
+
 /**
  *  Transform NPE into an error in compile time
  *  Inspired by java - optional lib
 */
 
 fun main() {
+    println("Matheus".sayHello())
+
     val nullValue : String? = null
     // no NPE
     print(nullValue?.length)
