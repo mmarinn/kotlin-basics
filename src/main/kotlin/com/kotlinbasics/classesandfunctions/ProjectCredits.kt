@@ -1,5 +1,7 @@
 package com.kotlinbasics.classesandfunctions
 
+import com.kotlinbasics.classesandfunctions.ProjectOwners.*
+
 class ProjectCredits {
 
     fun giveCreditsToAnOwner(projectOwners: ProjectOwners) {
@@ -7,7 +9,7 @@ class ProjectCredits {
     }
 
     fun giveCreditsToADev(projectOwners: ProjectOwners) {
-        if (ProjectOwners.PUTZEYS == projectOwners)
+        if (PUTZEYS == projectOwners)
             throw RuntimeException("Its not a dev!")
 
         println("Thanks to developer ${projectOwners.name}")
