@@ -19,7 +19,7 @@ fun main() {
 fun nullableVariable() {
     var notNull: String = "Hi!"
 
-    //var nullableAttempt: String = null  // compile time error
+    var nullableAttempt: String = null  // compile time error
 
     var nullable: String? = null        // optional type must be used
 
