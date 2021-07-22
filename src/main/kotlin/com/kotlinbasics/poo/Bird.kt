@@ -7,6 +7,7 @@ import com.kotlinbasics.poo.BirdSize.*
  */
 open class Bird(val name: String, val weight: Int, val size: BirdSize) {
 
+    // open functions can be override
     open fun sing() {
         println("the bird $name is singing!!")
     }
