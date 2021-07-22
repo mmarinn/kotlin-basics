@@ -4,7 +4,7 @@ import com.kotlinbasics.classesandfunctions.ProjectOwners.*
 
 fun main() {
     println("Hello, I can execute functions without a class!!!")
-    val numberOne = 20  //imutable
+    val numberOne : Int = 20  //imutable
     var numberTwo = 15 //val can assume other values
     numberTwo = 10
     val sum = sum(numberOne, numberTwo)
