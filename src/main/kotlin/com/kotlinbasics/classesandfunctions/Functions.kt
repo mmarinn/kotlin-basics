@@ -44,3 +44,5 @@ fun sum(numberOne: Int, numberTwo: Int): Int {
     return numberOne + numberTwo
 
 }
+
+const val CONSTANT = "HELLOWORLD"
